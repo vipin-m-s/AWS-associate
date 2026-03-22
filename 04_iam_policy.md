@@ -18,13 +18,13 @@ Fileds are
 ### identity based policy 
 - This has to be attacvhed to iam user, group, role
 - There are 2 types of policies
-- - managed policy
-  - - THis is re-usable policy
-    - - has 2 types
-      - - aws managed policy
-        - user managed policy 
+  - managed policy
+    - THis is re-usable policy
+      - has 2 types
+        - aws managed policy
+        - customer managed policy 
   - inline policy
-  - - one time usable policy
+    - specific to each user. Gets deleted when the user is deleted.*/XC
   
 ### resource based policy 
 - THis is attached to an aws resource
