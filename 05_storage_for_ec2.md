@@ -15,4 +15,13 @@
 - Each ebs volume can attach to only 1 ec2 instance
 
 # Instance store volume
-- 
+- Instance store volumes are ephermeral
+- If the instance is stopped then the instance store volumes are not accessible
+- They are storage from the underlying physical storage
+- WHen we stop and start instancce the VM can be started up in any physical host
+- EBS volumes are SAN hence it can be instantly connected to any host.
+- But underlying host storage is accessible only in that host
+- Instance store volumes are free for use
+- They have to be used for Temp directory , buffer / cache
+- We can choose size for EBS, but instance store volumes are fixed in size
+- Only some instance_types come with instance store volumes
