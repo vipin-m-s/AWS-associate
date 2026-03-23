@@ -1,0 +1,32 @@
+# EBS volume types
+
+## SSD
+
+### General purpose SSD  
+balance between cost/performance
+- gp3
+provides baseline 3000 iops, max 80,000 iops
+
+- gp2
+provides 3 iops * 1 GB. Max 10,000 iops
+
+ - usecases :- operatng system and sql database mysql, sql server
+
+### Provisioned IOPS
+- high performance storage
+- very hight iops
+- IOPS is 80k to 256k
+- io1
+- io1
+
+- usecasses :- Nosql database, mongodb
+
+## HDD
+Slow devices and budget friendly
+
+### Throughput optimized
+- iops 250 - 500 iops
+- Use case:- Big data analytics
+
+### Cold storage
+- NFS
