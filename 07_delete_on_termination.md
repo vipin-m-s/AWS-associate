@@ -1,0 +1,5 @@
+- Determines if a volume is deleted or retained when an ec2 instance is terminated
+- By default the root ebs volume are deleted when ec2 instance is terminated ( deleteOnTermination = true )
+- By default the non root volume ( data ) volumes are not delete when ec2 instance is termination ( deleteOnTermmiation = false )
+- We can modify the setting when creating a volume
+- We can also modify setting after ebs volume is crreated
