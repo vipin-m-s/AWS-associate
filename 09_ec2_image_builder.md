@@ -17,3 +17,4 @@
 - free servive
 - Configures the required pipelines to automate updates and system patching
 
+<img width="990" height="559" alt="Screenshot 2026-03-24 at 7 48 48 AM" src="https://github.com/user-attachments/assets/85136f70-eb86-44c0-ab6b-494a33c1a2a1" />
