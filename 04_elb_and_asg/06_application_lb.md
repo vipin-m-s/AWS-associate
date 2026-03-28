@@ -26,3 +26,11 @@ Custom domain
 <img width="669" height="698" alt="Screenshot 2026-03-28 at 9 47 34 AM" src="https://github.com/user-attachments/assets/fff51f86-b458-4861-9217-2345aae0a000" />
 
 
+Securing the communication between the client and the server
+<img width="606" height="607" alt="Screenshot 2026-03-28 at 2 10 32 PM" src="https://github.com/user-attachments/assets/fbce4db1-abe4-472b-a942-414fb66aba6a" />
+
+Stiky sessions
+ - Duratio nbased - AWSALB
+ - application based sticky session - AWSALBAPP
+<img width="612" height="619" alt="Screenshot 2026-03-28 at 2 11 54 PM" src="https://github.com/user-attachments/assets/5cd99753-64bc-4f52-8ad0-8b8e85709fa2" />
+
