@@ -42,5 +42,31 @@
 
 
 
+## SNI server name indication
+<img width="608" height="630" alt="Screenshot 2026-03-28 at 6 05 51 PM" src="https://github.com/user-attachments/assets/15727414-0536-4529-8dd1-5b76acd2c518" />
+
+- ALB and NLB supports SNI server name indication. Does not work for GWLB
+- THE LB can store multiple SSL certificates
+- Based on clients request to any domain 
+- The appropriate SSL certificate will be shared
+- We can have a single LB for multiple domains
+- This will help in reducing the cost
+
+
+## Client IP preservation 
+### ALB 
+- in alb the client ip is hidden from backend servers by default
+- We can enable it. A header will be included with name X-forwarded-for which will have source IP
+
+### NLB.
+- by default it is transparent load balancer.
+- the servers will see source ip address
+- But if ssl termination is done at NLB.
+- Then the source Ip is not shared to the backend servers
+- We can use proxy protocol v2
+- This will share source ip, source port, dest ip, dest port and protocol to backend servers
+- It is an IP protocol
+
+## Differences betwween the 3 load balancers
 
 
