@@ -1,0 +1,13 @@
+# Network load balancer
+- it operates at layer 4
+- Transport layer
+- It supports TCP, udp and tls
+- It supports ec2, ecs , ip addresses as backend ( lambda is not supported by NLB ) 
+- It is better interms of performance, since it does not need to parse the http headers
+- It has 1 static IP in each AZ, we can create 1 Elastic IP in each AZ aswell ( client side IP whitelisting )
+- Sticky sessions via Source IP address
+  - clients source IP address
+  - It uses flow has algorithm for session . It has a tuple of source IP, source port, protocol, dest IP, dest protocol
+- preservation of long gaming sessions etc
+- It can handle million requests per second
+- The IP address of client is preserved by default
