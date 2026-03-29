@@ -21,3 +21,9 @@
 ![Uploading Screenshot 2026-03-29 at 8.53.29 AM.png…]()
 
 <img width="676" height="630" alt="Screenshot 2026-03-29 at 8 58 06 AM" src="https://github.com/user-attachments/assets/77ca7105-2511-4273-8a7e-390d7e65fe1b" />
+
+- We will not be able to access the internet from private ec2 instance in private subnet
+- Inorder to access internet or be accessed from intertnet.
+  - ec2 instance should be in public subnet
+  - ec2 instance should have public IP address
+<img width="623" height="624" alt="Screenshot 2026-03-29 at 9 01 53 AM" src="https://github.com/user-attachments/assets/3af05f60-7b5d-4313-b009-acffed2b4477" />
