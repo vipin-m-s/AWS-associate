@@ -20,3 +20,4 @@
 - Its recommended to create a route table for each subnet.
 ![Uploading Screenshot 2026-03-29 at 8.53.29 AM.png…]()
 
+<img width="676" height="630" alt="Screenshot 2026-03-29 at 8 58 06 AM" src="https://github.com/user-attachments/assets/77ca7105-2511-4273-8a7e-390d7e65fe1b" />
