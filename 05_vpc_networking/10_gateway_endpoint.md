@@ -30,3 +30,16 @@ Routing rule in prviate subnet
 
 Security group outbound rule for ec2
 - We need to allow port 8/443 from ec2 to the vpce if not all allow is added
+
+# Gateway endpoint demo
+- create vpc
+- create public subnet and ec2 as bastion host
+- create private subnet and ec2
+- Create s3 buckets
+- We will not be able to access s3 using aws s3 ls
+- Then attach IAM role to private ec2 instance
+- Try aws s3 ls we will not be able to access
+- Create gateway vpc endpoint
+- Validate route table rule is created for prefix list -> VPCe
+- check aws s3 ls
+
