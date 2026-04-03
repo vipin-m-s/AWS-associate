@@ -1,0 +1,12 @@
+# batch operation
+- With the help of batch operaton we can perform bulk operations on subet of objects or all objects of the s3 bucket
+- The object lsit should be provided via inventory file, custom csv or by filterning the objects based on prefix
+- Once object list is seleccted we need to sleecct the operation
+  - copy objects in same bucket to other bucket
+  - replace all the tags
+  - delete objects
+  - restore glacier objects
+  - object lock modification
+- Once the operation is completed, we can store the results in the same bucket
+- the bathc operation job has retry logic, results storage
+- Use case:- bulk migration, object lock modification, tag modification
