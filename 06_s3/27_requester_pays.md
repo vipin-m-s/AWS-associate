@@ -1,0 +1,20 @@
+# Requester pays
+- There are three types of cost in S3
+  - Number of Request - when requesters request from s3
+  - Data transfer out - when data is downloaded from s3
+  - Data storage cost based on storage class
+- When requester pays is not enabled
+  - The owner aws account needs to bare the charges for number of requests and data transfer out charges
+  - If there are millions of requests, owner aws account needs to pay
+  - The owner aws still needs to pay for data storage costs
+- When request pays is enabled
+  - the requester pays for request charges and data transsfer out charges
+  - The owner aws still pays for data storage
+  - Used by research componaies for sharing research data, logs, etc.
+  - Companies sharing public data sets to public access
+- The requesters needs to access the content
+  - API :- x-amz-request-payer: requester
+  - CLI :- --request-payer requester
+  - We can add bucket policy to deny all the requests which does not have these options enabled.
+- AWS account pays for data storage cost
+- Works only when requester has aws account
