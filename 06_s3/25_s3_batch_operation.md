@@ -7,6 +7,8 @@
   - delete objects
   - restore glacier objects
   - object lock modification
+  - lambda function on each objects
+  - modify ACL 
 - Once the operation is completed, we can store the results in the same bucket
-- the bathc operation job has retry logic, results storage
+- the bathc operation job has retry logic, results storage and progress tracking
 - Use case:- bulk migration, object lock modification, tag modification
