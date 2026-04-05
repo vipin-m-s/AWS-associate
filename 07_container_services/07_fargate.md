@@ -4,4 +4,4 @@
 - We specify the CPU, memoyr, image that we want for our containers, pod
 - We are charged based on the containers in pay as you go model
 - It has awsvpc mode, where each task will get ENI and security group and we can expose each task to the internet and we can also communicate between each tasks
-  
+- Integratesd with cloud watch for metrics and we can use container insights to see the container helath
