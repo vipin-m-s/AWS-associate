@@ -1,0 +1,8 @@
+- It is used to store the images in AWS which can be used by ecs and eks
+- It can be madce public as well for public images
+- It is private by default
+- the ecs and eks needs iam role to pull images from ECR
+- It supports versioning and tagging of the images
+- It supports scanning the images in ecr for vulneribility using amazon inspector
+- It stores images with encryptoion at rest and with https
+- Lifecycle policies to delete old/unused images
