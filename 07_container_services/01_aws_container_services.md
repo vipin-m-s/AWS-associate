@@ -1,3 +1,12 @@
+- [Container  basics](#container--basics)
+- [containers](#containers)
+    + [key benefits of containers](#key-benefits-of-containers)
+- [Docker](#docker)
+- [Container orchestration](#container-orchestration)
+
+<small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+
 <img width="651" height="281" alt="Screenshot 2026-04-05 at 7 32 13 AM" src="https://github.com/user-attachments/assets/132d978f-3cb6-47e5-999e-7bb602a5e461" />There are 3 container services provided by AWS
 - AWS ECS 
 - AWS EKS
