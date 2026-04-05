@@ -1,0 +1,9 @@
+- Relataional database for finance, banks etc - amazon rds, amazon aurora
+- Caching , in meoery purposes - in memeoyr databases - amazon elastic cache
+- cart information, product info - key value pair , nosql databases - amazon dynamodb
+- linked user ifnormation - document db - amazon documentdb
+- social media networkwing, graph db - amazoon netputine
+- time series info - time serise db - amazon timestream
+- data analysics - data warehouse - amaozon redshift
+- Ledge databases - amazon quantum ledger database
+- AI - vector db - amazon opensearch, amazon rds, amazzon aurorua, amazon documentdb
