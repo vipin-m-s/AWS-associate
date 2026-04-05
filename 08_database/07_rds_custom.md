@@ -1,0 +1,8 @@
+- By default, rds does not provide access to underlying hardware where the db instance is hosted
+- With the rds custom feature, we can get access to underlying hardware
+- We can install custom applications, make os level changes for legacy/custom applications
+- It is supported only for Oracle database and sqlserver database
+- We can ssh/rdp into the instances where the db is running and mkae os level changes, install packages, custom db extension/plugins etc.
+- We will get benfit of rds such as automtic backup, read replica, multi az etc.
+- We have to disable automation mode, which is responsible for fixing any failure
+- It is recommended to take db snapshot
