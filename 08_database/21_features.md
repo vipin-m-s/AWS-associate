@@ -8,6 +8,7 @@
 - Dynamo db accelerator is a in memeory cache for the dynamo db
 - It provides microsecond low latency access to the cached items
 - It is a eventual consistency, the data may be lagging in cache.
+- The application needs to use DAX client instead of dynamodb client and endpoint wil lchange.
 - use case :- high read operations
 - anti pattern :- when we need read consistency
 
@@ -16,6 +17,7 @@
 - Other AWS services can then read from the dynamodb stream and act on the messages
 - It is an optional feature. Can be enabled/disabled any time
 - Stores the changes in the logs exactly once and stricylt ordered for 24 hours
+- There is no performance impact 
 - Use case:-
   - sensor data, real time monitoring
   - connected car
